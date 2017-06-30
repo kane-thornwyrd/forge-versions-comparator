@@ -1,0 +1,35 @@
+{
+  "name": "forge-versions-comparator",
+  "version": "1.0.0",
+  "description": "Allow to compare Minecraft Forge versions to sort them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js && mocha",
+    "test:cov": "istanbul cover _mocha --report lcovonly -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kane-thornwyrd/forge-versions-comparator.git"
+  },
+  "keywords": [
+    "minecraft",
+    "forge",
+    "version",
+    "comparator",
+    "semver"
+  ],
+  "author": "Jean-cédric Thérond <jean.cedric.t@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kane-thornwyrd/forge-versions-comparator/issues"
+  },
+  "homepage": "https://github.com/kane-thornwyrd/forge-versions-comparator#readme",
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.4.2"
+  }
+}
